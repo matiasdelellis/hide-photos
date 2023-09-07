@@ -1,0 +1,3 @@
+.app-menu-entry[data-app-id="photos"] {
+    display: none !important;
+}
