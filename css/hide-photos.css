@@ -1,3 +1,4 @@
-.app-menu-entry[data-app-id="photos"] {
+.app-menu-entry[data-app-id="photos"],
+.app-menu-popover-entry:has(a[href*="apps/photos"]) {
     display: none !important;
 }
