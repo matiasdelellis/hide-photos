@@ -1,4 +1,8 @@
+/* Nextcloud < 30 */
 .app-menu-entry[data-app-id="photos"],
-.app-menu-popover-entry:has(a[href*="apps/photos"]) {
+.app-menu-popover-entry:has(a[href*="apps/photos"]),
+/* Nextcloud 30*/
+.app-menu-entry:has(a[href*="apps/photos"]),
+.app-menu__overflow-entry:has(a[href*="apps/photos"]) {
     display: none !important;
 }
